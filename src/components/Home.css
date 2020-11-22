@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Navigation Bar Styling */
+div {
+  width: 100%;
+}
+
+.navbar-nav {
+  margin-right: 20%;
+}
+
+.navbar-brand {
+  margin-left: 25%;
+  font-size: large;
+}
+
+.brand {
+  list-style: none;
+  display: flex;
+}
+
+.brand li > a {
+  color: black;
+  font-size: large;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: large;
+  margin-left: 65px;
+  transition: transform 1s;
+}
+
+.nav-link:hover {
+  transform: translate(30px);
+}
+/* Navigation Bar Styling */
+
+/* Body Styling */
+
+.BodyDiv {
+  display: flex;
+  margin-top: 100px;
+}
+
+.signUp {
+  text-align: center;
+  border-left: 1px solid rgb(133, 133, 133);
+}
+
+.head-element {
+  padding-top: 10%;
+}
+
+.next-body {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.snappix {
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 600px) {
+  .BodyDiv {
+    display: block;
+    align-content: center;
+    text-align: center;
+  }
+  .signUp {
+    margin-top: 40px;
+  }
+
+  .next-body {
+    display: block;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .card {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.cardx {
+  border: none;
+}
+
+.card {
+  transition: transform 0.8s;
+  border-radius: 10%;
+}
+
+.card:hover {
+  transform: scale(0.8);
+}
+
+.outerdiv {
+}
